@@ -194,6 +194,32 @@
     background: #353A40;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 30px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #4498F2;
+    text-align: center;
+    font-size: 16px;
+  } 
+  
+
+
+
+  .grid-tiene{
+    font-size: 20px;
+    }
+
+  .grid-titulo{
+      font-size: 24px;
+      font-weight: 700;
+  }
+
 .honolulu{
     background-image: url("../img/honolulu.jpg");
     background-size: 1000px;
@@ -332,6 +358,18 @@
 .punteado{
     border-bottom: 1px dashed #999;
     text-decoration: none; 
+}
+
+.titulos{
+    text-align: center;
+    margin-right: 10%;
+    margin-top: -10px;
+}
+
+.titulos-valor{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: -30px;
 }
 
 .txt-bsas{
