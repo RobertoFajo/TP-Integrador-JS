@@ -88,8 +88,6 @@
                     </p>
                 </div>
             </div>
-
-
         </div>
         <div class="container">
             <div class="titulos">
@@ -101,32 +99,81 @@
                 </p>
             </div>
         </div>
-        
-        <!-- <div id="menu-pie" class="container-fluid mt-3 p-3">
-            <ul class="nav justify-content-center navegacion-pie">
-                <li>
-                  <a href="#">Preguntas <br> frecuentes</a>
-                </li>
-                <li>
-                  <a href="#">Contáctanos</a>
-                </li>
-                <li>
-                  <a href="#">Prensa</a>
-                </li>
-                <li>
-                  <a href="#">Conferencias</a>
-                </li>
-                <li>
-                    <a href="#">Términos y <br> condiciones</a>
-                  </li>
-                  <li>
-                    <a href="#">Privacidad</a>
-                  </li>
-                  <li>
-                    <a href="#">Condiciones</a>
-                  </li>
-              </ul>
-        </div> -->
+        <form action="">
+            <div class="container f-fondo">
+                <div class="row">
+                    <div class="col-sm-6   text-white">
+                        <input type="text" id="fname" name="fname" value="Nombre">
+                    </div>
+                    <div class="col-sm-6 text-white">
+                        <input type="text" id="lname" name="lname" value="Apellido">
+                    </div>    
+                </div>
+                <div class="row">
+                    <div class="col-sm-12   text-white">
+                        <input type="text" id="email" name="email" value="Correo">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-6   text-black">
+                        Cantidad
+                        <input type="text" id="fcantidad" name="fcantidad">
+                    </div>
+                    <div class="col-sm-6 text-black">
+                        Categoría
+                        <input list="categorias" id="fcategoria" name="fcategoria">
+                        <datalist id="categorias">
+                            <option value="Estudiante">
+                            <option value="Trainee">
+                            <option value="Junior">
+                        </datalist>
+                    </div>    
+                </div>
+                <div class="row">
+                    <div class="col-sm-12" id="total">
+                        <p>Total a Pagar: $</p>
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6   text-white">
+                        <button type="button" class="btnformu">Borrar</button>
+                    </div>
+                    <div class="col-sm-6 text-white">
+                        <button type="button" class="btnformu">Resumen</button>
+                    </div>    
+                </div>   
+            </div>
+        </form>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-12   text-white" id="menu-pie">
+                <ul class="nav justify-content-center navegacion-pie">
+                    <li>
+                    <a href="#">Preguntas <br> frecuentes</a>
+                    </li>
+                    <li>
+                    <a href="#">Contáctanos</a>
+                    </li>
+                    <li>
+                    <a href="#">Prensa</a>
+                    </li>
+                    <li>
+                    <a href="#">Conferencias</a>
+                    </li>
+                    <li>
+                        <a href="#">Términos y <br> condiciones</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacidad</a>
+                    </li>
+                    <li>
+                        <a href="#">Condiciones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
 

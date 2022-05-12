@@ -194,9 +194,62 @@
     background: #353A40;
 }
 
+.formulario{
+    display: inline;
+}
+
+.f-fondo{
+    /* background-color: aqua ; */
+    align-items: center;
+}
+
+input{
+    height: 40px;
+}
+
+#lname{
+    width: 100%;
+}
+
+#fcantidad{
+    width: 100%;
+}
+
+#fcategoria{
+    width: 100%;
+}
+
+#email{
+    width: 100%;
+    margin-top: 2%;
+}
+
+#fname{
+    width: 100%;
+}
+
+#total{
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 98%;
+    background-color: #CCE5FF;
+    color: ##325B8E;
+    padding-top: 15px;
+    
+}
+
+.btnformu{
+    background-color: #97C93E;
+    border: none;
+    margin-top: 3%;
+    width: 100%;
+    color: white;
+    height: 100%;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     gap: 10px;
     padding: 30px;
   }
@@ -288,7 +341,6 @@
     font-weight: 600;
     display: flex;
     align-items: right;
-    margin margin-top: -50px;
 }
 
 
@@ -362,7 +414,6 @@
 
 .titulos{
     text-align: center;
-    margin-right: 10%;
     margin-top: -10px;
 }
 
