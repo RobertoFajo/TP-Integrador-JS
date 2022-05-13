@@ -99,7 +99,7 @@
                 </p>
             </div>
         </div>
-        <form action="">
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="">
             <div class="container f-fondo">
                 <div class="row">
                     <div class="col-sm-6   text-white">
@@ -111,14 +111,14 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12   text-white">
-                        <input type="text" id="email" name="email" value="Correo">
+                        <input type="email" id="email" name="email" value="Correo">
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-sm-6   text-black">
                         Cantidad
-                        <input type="text" id="fcantidad" name="fcantidad">
+                        <input type="number" id="fcantidad" name="fcantidad">
                     </div>
                     <div class="col-sm-6 text-black">
                         Categoría
@@ -138,10 +138,10 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6   text-white">
-                        <button type="button" class="btnformu">Borrar</button>
+                        <input type="reset" value="Borrar" class="btnformu">
                     </div>
                     <div class="col-sm-6 text-white">
-                        <button type="button" class="btnformu">Resumen</button>
+                        <input type="submit" value="Resumen" class="btnformu">
                     </div>    
                 </div>   
             </div>
