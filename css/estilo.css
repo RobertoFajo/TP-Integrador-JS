@@ -247,6 +247,11 @@ input{
     height: 100%;
 }
 
+.btnformu:hover{
+    background-color: #587427;
+    
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
