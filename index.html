@@ -10,7 +10,6 @@
         <title>Conf Bs As</title>
     </head>
     <body>
-        <script src="js/logica.js"></script>
         <div class="container-fluid">
             <div class="row row-ancho">
                 <div class="col-12 col-md-6 col-lg-2 fondo-bsas text-white">
@@ -94,7 +93,7 @@
                 <p>
                     VENTA
                 </p>
-                <p class="titulos-valor">
+                <p class="titulos-valor" id="valor">
                     VALOR TICKET $200
                 </p>
             </div>
@@ -130,10 +129,9 @@
                         </datalist>
                     </div>    
                 </div>
-                <div class="row">
-                    <div class="col-sm-12" id="total">
+                <div id="total" class="row">
+                    <div class="col-sm-12" >
                         <p id="totalPagar">Total a Pagar: $</p>
-                        
                     </div>
                 </div>
                 <div class="row">
@@ -141,7 +139,7 @@
                         <input type="reset" value="Borrar" class="btnformu">
                     </div>
                     <div class="col-sm-6 text-white">
-                        <input type="submit" value="Resumen" class="btnformu">
+                        <input type="submit" value="Resumen" class="btnformu" id="enviar">
                     </div>    
                 </div>   
             </div>
@@ -174,6 +172,7 @@
                 </ul>
             </div>
         </div>
+        <script src="js/logica.js"></script>
     </body>
 </html>
 

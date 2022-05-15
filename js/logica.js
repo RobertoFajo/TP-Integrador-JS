@@ -20,8 +20,28 @@ function validateForm() {
       return false;
     }
 
+    
+}
+
+function handOverCategoria(){
+  let c = document.forms["myForm"]["fcantidad"].value;
+  if (c == "") {
+    alert("Ingrese cantidad, es obligatoria");
+  }
+}
+
+let enviar = document.getElementById("fcategoria");
+enviar.onmouseover = handOverCategoria;
+
+let idtotal=document.getElementById("totalPagar");
+let textoTotal = idtotal.innerHTML;
+let fcategoria = document.getElementById("fcategoria");
+fcategoria.onchange = calcula;
+
+function calcula(){
+    let d = document.forms["myForm"]["fcategoria"].value;
+    let c = document.forms["myForm"]["fcantidad"].value;
     let total=0;
-    let leyenda;
     if(d=="Estudiante"){
         total=200*c*0.2;
     }else{
@@ -31,7 +51,8 @@ function validateForm() {
             total=200*c*0.85;
         }
     }
-    leyenda=document.getElementById("totalPagar");
-    document.getElementById("totalPagar").innerHTML = leyenda+"---------------------";
+    
+    idtotal.innerHTML = textoTotal+total.toString();
+
 
 }
